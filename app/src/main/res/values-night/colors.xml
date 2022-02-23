@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1951a6</color>
+    <color name="colorPrimaryDark">#1951a6</color>
+    <color name="colorAccent">#F1592A</color>
+    <color name="colorMainNavbar">#FFFFFF</color>
+    <color name="colorMainBackground">#000000</color>
+    <color name="colorMainFont">#FFFFFF</color>
+    <color name="colorMainFontBlue">#FFFFFF</color>
+
+    <color name="color_black">#000000</color>
+    <color name="colorBlack">#201E1E</color>
+    <color name="colorYellow">#F3C10E</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_black_deep">#252525</color>
+    <color name="color_4062BB">#4062BB</color>
+    <color name="color_59C3C3">#59C3C3</color>
+    <color name="colorAccent2">#4062BB</color>
+    <color name="pinkColor">#F64C72</color>
+    <color name="pinkColorTransparent">#66F64C72</color>
+    <color name="orange">#E3F3A700</color>
+    <color name="orange1">#42FEB100</color>
+    <color name="colorBorderinputbottom">#F3C10E</color>
+    <color name="colorBorderinputbottomfocus">#0045AF</color>
+
+</resources>

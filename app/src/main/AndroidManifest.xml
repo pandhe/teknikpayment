@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pontianak.teknikpayment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_untan"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".ItemMarketplaceActivity"></activity>
+        <activity android:name=".MyNotifikasiActivity" />
+        <activity android:name=".MintaSaldoActivity" />
+        <activity android:name=".MyUpkpActivity" />
+        <activity android:name=".MyLazisMuActivity" />
+        <activity android:name=".MyPdamActivity" />
+        <activity android:name=".MyTvInternetActivity" />
+        <activity android:name=".MyListrikActivity" />
+        <activity
+            android:name=".DetailHistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UbahProfilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CheckTransaksiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TransferDepositActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TransferPulsaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TambahAkunBankActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WithdrawActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeDeposit"
+            android:exported="true" />
+        <activity
+            android:name=".GantiPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PhotoProfilActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyQrActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BayarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FavoritActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RiwayatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QrCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".YearLogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CekdanBayarTransaksi"
+            android:exported="true" />
+        <activity
+            android:name=".TagihanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DepositAtivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebTransaksiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TransaksiActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyVoucherActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PulsaOperatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BeliPulsaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FiturLinkajaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailAbsenLogActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".myfirebase.firebase_message"
+            android:exported="true"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.highbryds.tracker" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDBX7fjmyjMsY4fIvgr2Qpp6PF0lgHeNuA" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

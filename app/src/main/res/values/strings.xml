@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Untan Pay</string>
+    <string name="registersingin"><![CDATA[SIGN IN]]></string>
+    <string name="register">REGISTER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loren">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis dolor tristique, sagittis purus ut, commodo erat. Vestibulum mollis vulputate orci, id bibendum ipsum maximus.</string>
+    <string name="myabsent">myPresensi</string>
+    <string name="loading_bank_name">Sedang Memuat Data Bank . . .</string>
+    <string name="ketuk_for_bank">Ketuk ini untuk memilih bank</string>
+    <string name="myqr">My QR Code</string>
+
+</resources>
