@@ -188,7 +188,7 @@ public class OperatorAdapter extends RecyclerView.Adapter<OperatorAdapter.prakte
         }*/
 
         Glide.with(ctx)
-                .load(praktek.logo).placeholder(R.drawable.logoumy).fitCenter()
+                .load(praktek.logo).placeholder(R.drawable.ic_logountan).fitCenter()
                 .into(holder.img_operator);
 
         //int resID = ctx.getResources().getIdentifier(praktek., "drawable", ctx.getPackageName());

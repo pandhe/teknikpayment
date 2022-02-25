@@ -74,7 +74,7 @@
                     app:layout_constraintStart_toStartOf="@+id/guideline59"
                     app:layout_constraintTop_toBottomOf="@+id/textView24"
                     app:layout_constraintWidth_percent="0.3"
-                    app:srcCompat="@drawable/logologin" />
+                    app:srcCompat="@drawable/ic_logountan512" />
 
                 <TextView
                     android:id="@+id/txt3"

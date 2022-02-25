@@ -197,7 +197,7 @@ public class PulsaOperatorAdapter extends RecyclerView.Adapter<PulsaOperatorAdap
 
         if(logo.length()>=1) {
             Glide.with(ctx)
-                    .load(logo).placeholder(R.drawable.logoumy)
+                    .load(logo).placeholder(R.drawable.ic_logountan)
                     .into(holder.img_1);
         }
         else{
@@ -205,7 +205,7 @@ public class PulsaOperatorAdapter extends RecyclerView.Adapter<PulsaOperatorAdap
                 if (praktek.subcategory.logo != null) {
                     Log.i("adapter", "p" + praktek.subcategory.logo);
                     Glide.with(ctx)
-                            .load(praktek.subcategory.logo).placeholder(R.drawable.logoumy)
+                            .load(praktek.subcategory.logo).placeholder(R.drawable.ic_logountan)
                             .into(holder.img_1);
                 }
             }

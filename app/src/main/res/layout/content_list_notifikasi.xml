@@ -100,7 +100,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline33"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline73"
-        app:srcCompat="@drawable/logologin" />
+        app:srcCompat="@drawable/ic_logountan" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline70"

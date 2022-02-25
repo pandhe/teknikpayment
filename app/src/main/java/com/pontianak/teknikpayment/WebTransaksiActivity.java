@@ -55,7 +55,7 @@ public class WebTransaksiActivity extends KuberlayarDilautan {
                 super.onPageFinished(view, url);
                 String link1 = "https://vtmap-uploads.s3.amazonaws.com/merchant_logo/G915423405/thumb_retina_thumb_logo_ump.png";
                 String link2 = "https://www.untan.ac.id/wp-content/uploads/2019/04/logonew-1.png";
-                myWebView.loadUrl("javascript:(function(){document.body.innerHTML = document.body.innerHTML.replace('" + link1+"', '" + link2+"')})()");
+                //myWebView.loadUrl("javascript:(function(){document.body.innerHTML = document.body.innerHTML.replace('" + link1+"', '" + link2+"')})()");
 
             }
 
